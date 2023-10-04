@@ -1,0 +1,140 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card .navbar {
+    font-size: large;
+}
+
+.navbar .logo {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.card h1 {
+    font-size: 100px;
+    margin: 10px 10px 10px 10px;
+}
+
+.card button {
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color: #541C1C;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.card img.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.button {
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.button button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    font-size: 50px;
+    background-color: #9A6D5E;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 40%;
+    height: 50%;
+    
+}
+
+
+.customer .customer.icon,
+.supplier .supplier.icon {
+    width: 60px;
+    height: 60px;
+    margin:10px 10px 10px 10px;
+}
+
+
+
+
+.footer {
+    background-color: #9A6D5E;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer-item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.footer-item h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-item h6 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-item p {
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.footer-item form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
