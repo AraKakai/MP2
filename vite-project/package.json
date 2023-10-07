@@ -1,0 +1,773 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
+
+{
+  "props": {
+    "pageProps": {
+      "page": {
+        "_id": "651f72785b163bfa1c708726",
+        "Website": "651f72785b163bfa1c708724",
+        "slug": null,
+        "label": "Home",
+        "showOnHeader": false,
+        "showOnFooter": false,
+        "default": true,
+        "blocks": [{
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a1",
+            "description": "Add a full-width banner",
+            "type": "banner",
+            "active": true,
+            "name": "Banner",
+            "source": "durable",
+            "usage": 21534,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "banner",
+          "idx": 1,
+          "headline": "Build with our quality lumber",
+          "content": "Get the best wholesale and retail deals for your home or business from Pangan Coco Lumber Trading.",
+          "button": {
+            "label": "Shop now",
+            "type": "url",
+            "link": "#",
+            "style": {
+              "name": "style1"
+            },
+            "newPage": false
+          },
+          "layers": {
+            "palette": "color1",
+            "overlay": {
+              "type": "gradient",
+              "direction": "top-down"
+            },
+            "image": {
+              "enabled": true,
+              "media": {
+                "_id": "651f8c85f8b14da699f4d85d",
+                "author": "2655448",
+                "type": "shutterstock",
+                "preview": "https://cdn.durable.co/shutterstock/30HkUKOK4TT2KVMojSkrhhfo8wafLrSHuSXcMt6rnZ8Mra1tvL6JPuHHQuIVd4Gn.jpeg",
+                "searchId": "84222461-b310-4cab-8041-62ea7e0f51c0",
+                "url": "https://cdn.durable.co/shutterstock/30flqz9OPKbaSZcwY2cVCYVWKeHz0oAMUwSoTuFLZ41ckBManuaMO6ycrabtPflJ.jpeg",
+                "Business": "651f72775b163bfa1c70871c",
+                "createdAt": "2023-10-06T04:26:45.459Z",
+                "download": "1121898149",
+                "description": "Palm coconut wood",
+                "__v": 0,
+                "id": "651f8c85f8b14da699f4d85d"
+              },
+              "opacity": "37"
+            }
+          },
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "large",
+            "bottom": "large"
+          },
+          "combineWithHeader": false,
+          "align": "center",
+          "animation": {
+            "type": "zoomOut",
+            "speed": "slow"
+          },
+          "divider": "waveLeft",
+          "verticalAlign": "center"
+        }, {
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a7",
+            "description": "Add a simple block of text",
+            "type": "text",
+            "active": true,
+            "name": "Text",
+            "source": "durable",
+            "usage": 10255,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "pitch",
+          "idx": 2,
+          "content": "\u003cp class=\"large\" style=\"white-space:pre-line;text-align:justify\"\u003eIntroducing Pangan Coco Lumber Trading, your go-to destination for wholesale, retail, and trading needs in Quezon City, Philippines. With a wide range of high-quality lumber products, we cater to both individual customers and businesses alike. Our commitment to excellence and customer satisfaction sets us apart, ensuring you receive top-notch service and competitive prices. Whether you're looking to build, renovate, or stock your inventory, trust Pangan Coco Lumber Trading to deliver exceptional value and reliability.\u003c/p\u003e",
+          "align": "center",
+          "layers": {
+            "image": {
+              "enabled": false
+            },
+            "overlay": {
+              "type": "gradient"
+            },
+            "palette": "color2"
+          },
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "large",
+            "bottom": "large"
+          },
+          "animation": {
+            "type": "zoomIn",
+            "speed": "medium"
+          }
+        }, {
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a6",
+            "description": "Add multiple items with images and text",
+            "type": "list",
+            "active": true,
+            "name": "List",
+            "source": "durable",
+            "usage": 12533,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "stats",
+          "idx": 3,
+          "showImage": false,
+          "showHeading": true,
+          "showContent": true,
+          "showIcon": true,
+          "headline": "",
+          "items": [{
+            "title": "32 years of experience",
+            "idx": 0,
+            "icon": {
+              "media": {
+                "id": "431",
+                "url": "https://static.thenounproject.com/png/431-200.png",
+                "author": "Edward Boatman",
+                "authorLink": "https://thenounproject.com/term/star/431?utm_source=Durable.co\u0026utm_medium=referral",
+                "type": "icon"
+              },
+              "color": "#FFFFFF"
+            }
+          }, {
+            "title": "Product Quality",
+            "idx": 1,
+            "icon": {
+              "media": {
+                "id": "154796",
+                "url": "https://static.thenounproject.com/png/154796-200.png",
+                "author": "Antar",
+                "authorLink": "https://thenounproject.com/term/thumb-up/154796?utm_source=Durable.co\u0026utm_medium=referral",
+                "type": "icon"
+              },
+              "color": "#FFFFFF"
+            }
+          }, {
+            "title": "Competitive prices",
+            "idx": 2,
+            "icon": {
+              "media": {
+                "_id": "651f80a5f8b14da699f4b6eb",
+                "author": "Icon Solid",
+                "authorLink": "https://thenounproject.com/term/money/31377?utm_source=Durable.co\u0026utm_medium=referral",
+                "type": "icon",
+                "preview": "https://static.thenounproject.com/png/31377-200.png",
+                "url": "https://static.thenounproject.com/png/31377-200.png",
+                "Business": "651f72775b163bfa1c70871c",
+                "createdAt": "2023-10-06T03:36:05.720Z",
+                "description": "Money",
+                "__v": 0,
+                "id": "651f80a5f8b14da699f4b6eb"
+              },
+              "color": "#FFFFFF"
+            }
+          }],
+          "imageFit": "cover",
+          "align": "center",
+          "aspectRatio": "16:9",
+          "cornerRadius": "default",
+          "itemsSize": "medium",
+          "layers": {
+            "image": {
+              "enabled": false
+            },
+            "overlay": {
+              "type": "solid",
+              "direction": null
+            },
+            "palette": "color4"
+          },
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "large",
+            "bottom": "large"
+          },
+          "iconSize": "w-36 h-36",
+          "showButton": false,
+          "fullContentLink": false,
+          "animation": {
+            "type": "slideFromBottom",
+            "speed": "medium"
+          }
+        }, {
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a6",
+            "description": "Add multiple items with images and text",
+            "type": "list",
+            "active": true,
+            "name": "List",
+            "source": "durable",
+            "usage": 12533,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "list",
+          "idx": 4,
+          "showImage": true,
+          "showHeading": true,
+          "showContent": true,
+          "headline": "Services",
+          "items": [{
+            "title": "Wholesale Distribution",
+            "content": "\u003cp\u003eEfficient distribution of goods to retailers across Metro Manila.\u003c/p\u003e",
+            "idx": 0,
+            "button": {
+              "label": "More info",
+              "type": "url",
+              "link": "#"
+            },
+            "image": {
+              "_id": "651f822ad3d683c6044ab578",
+              "author": "Tolu",
+              "authorLink": "https://unsplash.com/@toluobde?utm_source=Durable.co\u0026utm_medium=referral",
+              "type": "unsplash",
+              "url": "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyfHxjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNjk2NTYzNzMzfDA\u0026ixlib=rb-4.0.3\u0026q=80\u0026w=1080",
+              "Business": "651f72775b163bfa1c70871c",
+              "createdAt": "2023-10-06T03:42:34.233Z",
+              "download": "https://api.unsplash.com/photos/PlBsJ5MybGc/download?ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyfHxjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNjk2NTYzNzMzfDA",
+              "__v": 0,
+              "id": "651f822ad3d683c6044ab578",
+              "searchId": "614bc93a-69d5-4d82-ab66-edfe47bf3304"
+            }
+          }, {
+            "title": "Product Sourcing",
+            "content": "Locating and procuring quality products from trusted suppliers locally and globally.",
+            "idx": 2,
+            "button": {
+              "label": "More info",
+              "type": "url",
+              "link": "#"
+            },
+            "image": {
+              "_id": "651f8244008fb807c4cb6775",
+              "author": "",
+              "authorLink": "",
+              "type": "library",
+              "url": "https://cdn.durable.co/blocks/3bd9SKu2vKKPJVBTe8ou9sEw5tPGWnhItWolD6zLg1yIlVg11TBnXk94qG1IWdfs.jpg",
+              "key": "blocks/3bd9SKu2vKKPJVBTe8ou9sEw5tPGWnhItWolD6zLg1yIlVg11TBnXk94qG1IWdfs.jpg",
+              "Business": "651f72775b163bfa1c70871c",
+              "createdAt": "2023-10-06T03:43:00.660Z",
+              "__v": 0,
+              "id": "651f8244008fb807c4cb6775"
+            }
+          }],
+          "imageFit": "cover",
+          "align": "center",
+          "aspectRatio": "16:9",
+          "cornerRadius": "default",
+          "itemsSize": "medium",
+          "layers": {
+            "image": {
+              "enabled": false
+            },
+            "overlay": {
+              "type": "gradient",
+              "direction": null,
+              "color2": "#FFFFFF"
+            },
+            "palette": "color1"
+          },
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "medium",
+            "bottom": "medium"
+          },
+          "textSettings": {
+            "position": "below",
+            "background": {
+              "color": "#000000",
+              "amount": 80
+            }
+          }
+        }, {
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a2",
+            "description": "Add an image alongside a block of text",
+            "type": "hero",
+            "active": true,
+            "name": "Text + image",
+            "source": "durable",
+            "usage": 12956,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "about-us",
+          "idx": 5,
+          "content": "\u003ch2 style=\"white-space:pre-line;text-align:justify\"\u003eAbout Pangan Coco Lumber Trading\u003c/h2\u003e\n\u003cp style=\"text-align:justify\"\u003ePangan Coco Lumber Trading is a leading wholesale, retail, and trading business based in Quezon City,Philippines. With a strong commitment to quality and customer satisfaction, we specialize in providing high-quality lumber to meet the diverse needs of our clients.\u003c/p\u003e\n\u003cp style=\"text-align:justify\"\u003eWith years of experience in the industry, we have established a reputation for delivering reliable and cost-effective solutions. Our product quality, competitive pricing, and exceptional service make us the preferred choice for individuals, contractors, and businesses across Metro Manila. Whether you are looking for lumber for your construction projects or need reliable trading partners, Pangan Coco Lumber Trading is here to meet your needs.\u003c/p\u003e",
+          "image": {
+            "media": {
+              "_id": "651f827a898a9a1b8b47d24b",
+              "author": "",
+              "authorLink": "",
+              "type": "library",
+              "url": "https://cdn.durable.co/blocks/36cL99S5fUYXqEqZqxoL276GGKA0EJWk6151NwyVayY9aZjCJStxsitEPPmQTPc1.jpg",
+              "key": "blocks/36cL99S5fUYXqEqZqxoL276GGKA0EJWk6151NwyVayY9aZjCJStxsitEPPmQTPc1.jpg",
+              "Business": "651f72775b163bfa1c70871c",
+              "createdAt": "2023-10-06T03:43:54.821Z",
+              "__v": 0,
+              "id": "651f827a898a9a1b8b47d24b"
+            },
+            "imageFit": "contain",
+            "align": "left",
+            "aspectRatio": "16:9",
+            "cornerRadius": "no-rounded"
+          },
+          "align": "middle",
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "large",
+            "bottom": "large"
+          },
+          "layers": {
+            "image": {
+              "enabled": false
+            },
+            "overlay": {
+              "type": "gradient",
+              "direction": null,
+              "color2": "#FFFFFF"
+            },
+            "palette": "color2"
+          }
+        }, {
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a3",
+            "description": "Display a quote or testimonial",
+            "type": "quote",
+            "active": true,
+            "name": "Quote/testimonial",
+            "source": "durable",
+            "usage": 2658,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "quote",
+          "idx": 6,
+          "items": [{
+            "content": "I am extremely grateful for the exceptional service provided by Pangan Coco Lumber Trading. Their wide range of products, competitive prices, and friendly staff made my wholesale purchase a breeze. Highly recommended!",
+            "by": "- Samantha",
+            "image": null,
+            "idx": 0
+          }],
+          "align": "center",
+          "layers": {
+            "image": {
+              "enabled": false
+            },
+            "overlay": {
+              "type": "solid",
+              "direction": null
+            },
+            "palette": "color4"
+          },
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "small",
+            "bottom": "small"
+          }
+        }, {
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a8",
+            "description": "Display a map and location details",
+            "type": "location",
+            "active": true,
+            "name": "Location",
+            "source": "durable",
+            "usage": 1685,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "map",
+          "idx": 7,
+          "headline": "Location",
+          "address": " 2209 Commonwealth Ave , Quezon City, Philippines, 1127",
+          "latLng": {
+            "lat": 14.681207,
+            "lng": 121.0840496
+          },
+          "align": "right",
+          "style": "inline",
+          "theme": "light",
+          "cornerRadius": "large",
+          "layers": {
+            "image": {
+              "enabled": true,
+              "media": {
+                "_id": "651f8e52008fb807c4cb8ac7",
+                "author": "2655448",
+                "type": "shutterstock",
+                "preview": "https://cdn.durable.co/shutterstock/1dd6RF0n9w6ZyCxfYhontfP4QDasVYLuDriCmbvqq4VSonZumXbM0u61sAISeZMs.jpeg",
+                "searchId": "84222461-b310-4cab-8041-62ea7e0f51c0",
+                "url": "https://cdn.durable.co/shutterstock/34KzyhPwRpc414AaGq1DQesbsV6WeGNcq14NFNDQdPTGuIyE9icCugnF15hGD0jS.jpeg",
+                "Business": "651f72775b163bfa1c70871c",
+                "createdAt": "2023-10-06T04:34:26.693Z",
+                "download": "1121898116",
+                "description": "Palm coconut wood",
+                "__v": 0,
+                "id": "651f8e52008fb807c4cb8ac7"
+              }
+            },
+            "overlay": {
+              "type": "solid",
+              "direction": null
+            },
+            "palette": "color4"
+          },
+          "marker": "#432322",
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "large",
+            "bottom": "large"
+          }
+        }, {
+          "WebsiteBlock": {
+            "_id": "629f98a1eb0b4972268051a9",
+            "description": "Add a contact form",
+            "type": "contact",
+            "active": true,
+            "name": "Contact form",
+            "source": "durable",
+            "usage": 8221,
+            "category": "section"
+          },
+          "logging": [],
+          "type": "contact",
+          "idx": 8,
+          "nameFieldLabel": "Name",
+          "messageFieldLabel": "Message",
+          "sendButtonLabel": "Send",
+          "fields": [],
+          "content": "\u003ch3\u003eContact Us Now\u003c/h3\u003e \u003cp\u003eComplete the contact form below to get in touch with us. We are here to assist you with all your wholesale, retail, and trading requirements. We value your feedback and will respond promptly to your message.\u003c/p\u003e",
+          "align": "right",
+          "layers": {
+            "image": {
+              "enabled": false
+            },
+            "overlay": {
+              "type": "gradient",
+              "direction": null,
+              "color2": "#FFFFFF"
+            },
+            "palette": "color1"
+          },
+          "spacing": {
+            "minHeight": "min-h-60",
+            "top": "medium",
+            "bottom": "medium"
+          },
+          "button": {
+            "style": {
+              "name": "style1"
+            }
+          },
+          "divider": "waveRight"
+        }],
+        "order": 0,
+        "createdAt": "2023-10-06T02:35:36.102Z",
+        "seo": {
+          "title": "Wholesale and Retail Trading Solutions for Construction Needs",
+          "description": "Efficient distribution, retail operations, product sourcing, inventory management, sales and marketing strategies, and procurement services for construction businesses.",
+          "keywords": "wholesale and retail trading, construction needs, wholesale distribution, retail operations, product sourcing, inventory management, sales and marketing strategies, procurement services",
+          "headCode": "",
+          "footerCode": "",
+          "Image": {
+            "_id": "651f729ea030716d1f263c31",
+            "author": "Bruno",
+            "authorLink": "https://unsplash.com/@bruno_kelzer?utm_source=Durable.co\u0026utm_medium=referral",
+            "type": "unsplash",
+            "url": "https://images.unsplash.com/photo-1557821552-17105176677c?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxfHxXaG9sZXNhbGUlMkMlMjBSZXRhaWwlMjBhbmQlMjBUcmFkaW5nfGVufDB8fHx8MTY5NjU1OTczNXww\u0026ixlib=rb-4.0.3\u0026q=80\u0026w=1080",
+            "Business": "651f72775b163bfa1c70871c",
+            "createdAt": "2023-10-06T02:36:14.517Z",
+            "download": "https://api.unsplash.com/photos/LvySG1hvuzI/download?ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxfHxXaG9sZXNhbGUlMkMlMjBSZXRhaWwlMjBhbmQlMjBUcmFkaW5nfGVufDB8fHx8MTY5NjU1OTczNXww",
+            "__v": 0
+          }
+        },
+        "forceRender": false,
+        "__v": 2
+      },
+      "website": {
+        "_id": "651f72785b163bfa1c708724",
+        "logo": null,
+        "favicon": null,
+        "primaryColor": "#432322",
+        "secondaryColor": "#1A795D",
+        "colorPalette": {
+          "Palette": {
+            "_id": "64d22355a4b4be5f8e34a876",
+            "colors": [{
+              "color": "#432322",
+              "accent": "#7BCDB5"
+            }, {
+              "color": "#1A795D",
+              "accent": "#D1C5B3"
+            }, {
+              "color": "#502726",
+              "accent": "#7BCDB5"
+            }, {
+              "color": "#432322",
+              "accent": "#7BCDB5"
+            }],
+            "active": true,
+            "createdAt": "2023-08-04T12:00:00.000Z",
+            "themes": ["nature"],
+            "uses": 94
+          },
+          "colors": []
+        },
+        "cornerRadius": "no-rounded",
+        "fonts": {
+          "head": {
+            "_id": "629f98a1eb0b4972268051b7",
+            "name": "Varela Round",
+            "weight": 400,
+            "family": "'Varela Round', sans-serif",
+            "active": true
+          },
+          "body": {
+            "_id": "629f98a1eb0b4972268051b8",
+            "name": "PT Sans",
+            "weight": 400,
+            "family": "'PT Sans', sans-serif",
+            "active": true
+          }
+        },
+        "buttons": {
+          "style1": {
+            "cornerRadius": 8,
+            "type": "outline"
+          },
+          "style2": {
+            "cornerRadius": 0,
+            "type": "outline"
+          }
+        },
+        "status": "private",
+        "redirect": "to-root",
+        "widgets": [{
+          "WebsiteBlock": "64f716d5f1c45fc9ddde8f39",
+          "type": "messenger_button",
+          "idx": 0,
+          "generating": true,
+          "editorUrl": "https://www.commoninja.com/messenger-button/wl/editor/view/ee28318a-97ad-4557-9ee7-b26771da1f5c?wlToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlbGxlcklkIjoiMzRlNDc2YTQtYmU2OS00MmE2LWIwMTAtNDJmN2U5OWY0MzAxIiwidGVuYW50SWQiOiJkdXJhYmxlLTY1MWY3Mjc4NWIxNjNiZmExYzcwODcyNCIsImlhdCI6MTY5NjU2MDU0Mn0.OtcKlfRLCRUR9kcIraF4ADq5KRpenHOZnUp0nzZ-XYA",
+          "embedCode": {
+            "html": "\u003cdiv class=\"commonninja_component pid-ee28318a-97ad-4557-9ee7-b26771da1f5c\"\u003e\u003c/div\u003e",
+            "script": "\u003cscript src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer\u003e\u003c/script\u003e"
+          },
+          "externalId": "ee28318a-97ad-4557-9ee7-b26771da1f5c"
+        }],
+        "searchIndexing": false,
+        "domain": "",
+        "subdomain": "pangancocolumbertrading",
+        "externalDomain": "",
+        "customDomain": "",
+        "Business": {
+          "_id": "651f72775b163bfa1c70871c",
+          "name": "Pangan Coco Lumber Trading",
+          "type": {
+            "Type": "615f610338d3cef456b5a678",
+            "name": "Wholesale, Retail and Trading"
+          },
+          "stripeDetails": {
+            "paymentsEnabled": false,
+            "subscriptionStatus": "trialing"
+          },
+          "settings": {
+            "ai": {
+              "language": "en"
+            }
+          },
+          "language": "en"
+        },
+        "seo": {
+          "title": "Pangan Coco Lumber Trading",
+          "description": "",
+          "keywords": "",
+          "headCode": "",
+          "footerCode": "",
+          "Image": null
+        },
+        "paletteMigratedAt": null,
+        "social": [{
+          "type": "facebook",
+          "link": "profile.php?id=100090991728916"
+        }],
+        "socialSettings": {
+          "size": "medium",
+          "shape": "none",
+          "style": "solid"
+        },
+        "embedContactConfig": {
+          "customFields": []
+        },
+        "header": {
+          "siteName": "Pangan Coco Lumber Trading",
+          "showLogo": false,
+          "source": "branding",
+          "customLogo": null,
+          "logoDesktop": {
+            "height": 80
+          },
+          "logoMobile": {
+            "height": 40
+          },
+          "showSocial": true,
+          "style": "left",
+          "fullWidth": false,
+          "sticky": false,
+          "button": {
+            "label": "Cart",
+            "link": "",
+            "type": "url",
+            "style": {
+              "name": "style1"
+            }
+          },
+          "spacing": {
+            "top": "medium",
+            "bottom": "medium",
+            "minHeight": "min-h-60"
+          },
+          "menu": {
+            "collapse": false,
+            "placement": "right"
+          },
+          "layers": {
+            "palette": "custom",
+            "overlay": {
+              "type": "solid",
+              "color1": "#432322",
+              "color2": "#502726"
+            },
+            "foreground": {
+              "accent": "#7BCDB5"
+            }
+          }
+        },
+        "footer": {
+          "businessName": "Pangan Coco Lumber Trading 2023",
+          "showLogo": false,
+          "customLogo": {
+            "_id": "651f7624b9d6c7b34e13df93",
+            "author": "",
+            "authorLink": "",
+            "type": "library",
+            "url": "https://cdn.durable.co/blocks/fPm6kucQ2tPYvh5dkFUP40BCCEmhDWMffy1uFGbzqXz65vNb1QzKO1jTt9cgl2ej.jpg",
+            "key": "blocks/fPm6kucQ2tPYvh5dkFUP40BCCEmhDWMffy1uFGbzqXz65vNb1QzKO1jTt9cgl2ej.jpg",
+            "Business": "651f72775b163bfa1c70871c",
+            "createdAt": "2023-10-06T02:51:16.194Z",
+            "__v": 0
+          },
+          "logoDesktop": {
+            "height": 80
+          },
+          "logoMobile": {
+            "height": 40
+          },
+          "style": "split-right",
+          "additionalDetails": "\n2209 Commonwealth Ave , Quezon City, Philippines, 1127\n\n",
+          "showSocial": true,
+          "madeWithDurable": false,
+          "spacing": {
+            "top": "small",
+            "bottom": "small",
+            "minHeight": "min-h-60"
+          },
+          "layers": {
+            "palette": "color2",
+            "image": {
+              "enabled": false
+            },
+            "overlay": {
+              "type": "solid",
+              "direction": null
+            }
+          },
+          "showAddress": false,
+          "businessAddress": ""
+        },
+        "version": 4,
+        "showLogo": false,
+        "language": "en",
+        "pages": [{
+          "_id": "651f72785b163bfa1c708726",
+          "slug": null,
+          "label": "Home",
+          "showOnHeader": false,
+          "showOnFooter": false,
+          "forceRender": false
+        }, {
+          "_id": "651f8f7bb9d6c7b34e14321d",
+          "slug": "about",
+          "label": "About",
+          "showOnHeader": true,
+          "showOnFooter": false,
+          "forceRender": false
+        }, {
+          "_id": "651f9048b9d6c7b34e14344b",
+          "slug": "new-page",
+          "label": "New page",
+          "showOnHeader": true,
+          "showOnFooter": true,
+          "forceRender": false
+        }, {
+          "_id": "651f99a3008fb807c4cba68e",
+          "slug": "new-page-2",
+          "label": "New page",
+          "showOnHeader": true,
+          "showOnFooter": true,
+          "forceRender": false
+        }]
+      },
+      "apiUrl": "https://api.durable.co",
+      "captchaKey": "6Leu0w4eAAAAAN0DPcebVt2LMLmRMOIocTcPheC0",
+      "ipAddress": "2604:a880:1:20::12:1001",
+      "pt": "NjUxZjcyNzg1YjE2M2JmYTFjNzA4NzI0OjE2OTY1NjA4MDIuNTk2OnByZXZpZXc="
+    },
+    "__N_SSP": true
+  },
+  "page": "/[[...slug]]",
+  "query": {
+    "pt": "NjUxZjcyNzg1YjE2M2JmYTFjNzA4NzI0OjE2OTY1NjA4MDIuNTk2OnByZXZpZXc="
+  },
+  "buildId": "R7ncy2gcYq3u-kOZCak13",
+  "isFallback": false,
+  "dynamicIds": [73175, 82258, 50866, 33509, 76383, 10258, 52686, 68077],
+  "gssp": true,
+  "scriptLoader": []
+}
